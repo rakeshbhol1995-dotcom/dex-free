@@ -1,0 +1,12 @@
+[31m[1mError[22m[39m [31m[1mHH606:[22m[39m The project cannot be compiled, see reasons below.
+
+These files import other files that use a different and incompatible version of Solidity:
+
+  * src/UniswapV2Router02.sol (=0.6.6) imports src/interfaces/IUniswapV2.sol (=0.5.16), src/libraries/SafeMath.sol (=0.5.16) and 1 other file. Use --verbose to see the full list.
+
+To learn more, run the command again with --verbose
+
+Read about compiler configuration at https://v2.hardhat.org/config
+
+
+For more info go to https://v2.hardhat.org/HH606 or run Hardhat with --show-stack-traces
